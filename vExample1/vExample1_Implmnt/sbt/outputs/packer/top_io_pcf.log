@@ -1,0 +1,3 @@
+OUTPUT LED_R 	 location (6, 31, 0) 	 41 	 SB_LVCMOS
+OUTPUT LED_G 	 location (5, 31, 0) 	 40 	 SB_LVCMOS
+OUTPUT LED_B 	 location (4, 31, 0) 	 39 	 SB_LVCMOS

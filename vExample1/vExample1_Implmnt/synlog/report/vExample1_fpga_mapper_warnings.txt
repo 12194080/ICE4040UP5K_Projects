@@ -1,0 +1,1 @@
+@W: MT246 :"c:\users\kolel\onedrive\lattice fpga\vexample1\main.v":22:2:22:16|Blackbox SB_IO_OD is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

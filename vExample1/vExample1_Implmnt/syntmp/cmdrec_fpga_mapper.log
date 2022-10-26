@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt"   -part iCE40UP5K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\synlog\report\vExample1_fpga_mapper.xml"  -flow mapping  -multisrs  -oedif  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.edf"   -autoconstraint  -freq 1.000   "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\synwork\vExample1_prem.srd"  -sap  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.sap"  -otap  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.tap"  -omap  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.map"  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.sap"  -ologparam  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\syntmp\vExample1.plg"  -osyn  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.srm"  -prjdir  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\"  -prjname  vExample1_syn  -log  "C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\synlog\vExample1_fpga_mapper.srr" 
+rc:1 success:1 runtime:1
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.edf|io:o|time:1666757579|size:3659|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\synwork\vExample1_prem.srd|io:i|time:1666757578|size:3353|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.sap|io:o|time:1666757578|size:113|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.tap|io:o|time:0|size:0|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.map|io:o|time:1666757579|size:28|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1662486592|size:224837|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.sap|io:o|time:1666757578|size:113|exec:0
+file:"C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\syntmp\vExample1.plg"|io:o|time:0|size:0|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\vExample1.srm|io:o|time:1666757578|size:3906|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\vExample1_Implmnt\synlog\vExample1_fpga_mapper.srr|io:o|time:1666757579|size:8244|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1662486569|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1662486575|size:32355840|exec:1

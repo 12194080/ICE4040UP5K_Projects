@@ -1,0 +1,18 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   iceblink40_demo   ########
+===============================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     3                  100 %                
+=================================================
+Total IO PADS in the block iceblink40_demo:	3 (60.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

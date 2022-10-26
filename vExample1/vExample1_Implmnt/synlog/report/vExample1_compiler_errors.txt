@@ -1,0 +1,2 @@
+@E: CL219 :"C:\Users\kolel\OneDrive\Lattice FPGA\vExample1\main.v":3:11:3:14|Multiple non-tristate drivers for net leds[0] in top
+

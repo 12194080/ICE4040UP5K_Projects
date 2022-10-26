@@ -1,0 +1,5 @@
+set_location CONSTANT_ONE_LUT4 4 30 0 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_io LED_R 41
+set_io LED_G 40
+set_io LED_B 39
