@@ -1,0 +1,2 @@
+@E: CG478 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":81:18:81:104|Expression size is either 0 or could not be determined.
+

@@ -1,0 +1,71 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v" (library work)
+Verilog syntax check successful!
+File C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v changed - recompiling
+Selecting top level module comparator
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4073:7:4073:14|Synthesizing module SB_IO_OD in library work.
+
+@N: CG364 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":34:7:34:16|Synthesizing module comparator in library work.
+
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":53:3:53:16|Input LATCHINPUTVALUE on instance pin_out_driver is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":53:3:53:16|Input CLOCKENABLE on instance pin_out_driver is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":53:3:53:16|Input INPUTCLK on instance pin_out_driver is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":53:3:53:16|Input OUTPUTCLK on instance pin_out_driver is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":53:3:53:16|Input OUTPUTENABLE on instance pin_out_driver is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":53:3:53:16|Input DOUT1 on instance pin_out_driver is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":60:3:60:17|Input LATCHINPUTVALUE on instance pin_out_driver2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":60:3:60:17|Input CLOCKENABLE on instance pin_out_driver2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":60:3:60:17|Input INPUTCLK on instance pin_out_driver2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":60:3:60:17|Input OUTPUTCLK on instance pin_out_driver2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":60:3:60:17|Input OUTPUTENABLE on instance pin_out_driver2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":60:3:60:17|Input DOUT1 on instance pin_out_driver2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input LATCHINPUTVALUE on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input CLOCKENABLE on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input INPUTCLK on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input OUTPUTCLK on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input OUTPUTENABLE on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input DOUT1 on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 26 22:36:57 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":34:7:34:16|Selected library: work cell: comparator view verilog as top level
+@N: NF107 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":34:7:34:16|Selected library: work cell: comparator view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 26 22:36:57 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 26 22:36:57 2022
+
+###########################################################]

@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4073:7:4073:14|Synthesizing module SB_IO_OD in library work.
+@N: CG364 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":34:7:34:16|Synthesizing module comparator in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":34:7:34:16|Selected library: work cell: comparator view verilog as top level
+@N: NF107 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":34:7:34:16|Selected library: work cell: comparator view verilog as top level
+

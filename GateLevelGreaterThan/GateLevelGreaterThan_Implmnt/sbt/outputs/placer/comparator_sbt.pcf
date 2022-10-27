@@ -1,0 +1,10 @@
+set_location pin_out_driver_RNO 13 30 5 # SB_LUT4 (LogicCell: pin_out_driver_RNO_LC_0)
+set_location GND -1 -1 -1 # GND
+set_io pin_out_driver 4 31 0 # SB_IO_OD
+set_io pin_out_driver2 5 31 0 # SB_IO_OD
+set_io pin_out_driver3 6 31 0 # SB_IO_OD
+set_io sw1_ibuf[0] 19 31 0 # ICE_IO
+set_io sw1_ibuf[1] 19 31 1 # ICE_IO
+set_io sw2_ibuf[0] 13 31 1 # ICE_IO
+set_io sw2_ibuf[1] 9 31 0 # ICE_IO
+set_location CONSTANT_ONE_LUT4 5 30 1 # SB_LUT4 (LogicCell: LC_1)

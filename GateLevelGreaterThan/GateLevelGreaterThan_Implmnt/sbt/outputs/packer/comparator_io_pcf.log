@@ -1,0 +1,7 @@
+INPUT  sw2[1] 	 location (9, 31, 0) 	 43 	 SB_LVCMOS
+INPUT  sw1[0] 	 location (19, 31, 0) 	 23 	 SB_LVCMOS
+OUTPUT LED_G 	 location (5, 31, 0) 	 40 	 SB_LVCMOS
+INPUT  sw2[0] 	 location (13, 31, 1) 	 34 	 SB_LVCMOS
+INPUT  sw1[1] 	 location (19, 31, 1) 	 25 	 SB_LVCMOS
+OUTPUT LED_R 	 location (6, 31, 0) 	 41 	 SB_LVCMOS
+OUTPUT LED_B 	 location (4, 31, 0) 	 39 	 SB_LVCMOS

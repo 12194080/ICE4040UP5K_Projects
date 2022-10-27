@@ -1,0 +1,10 @@
+set_location CONSTANT_ONE_LUT4 5 30 1 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location pin_out_driver_RNO 13 30 5 #SB_LUT4
+set_io sw2[1] 43
+set_io sw1[0] 23
+set_io LED_G 40
+set_io sw2[0] 34
+set_io sw1[1] 25
+set_io LED_R 41
+set_io LED_B 39

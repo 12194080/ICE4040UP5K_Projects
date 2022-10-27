@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   comparator   ########
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block comparator:	1 (10.00 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     7                  100 %                
+=================================================
+Total IO PADS in the block comparator:	7 (70.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

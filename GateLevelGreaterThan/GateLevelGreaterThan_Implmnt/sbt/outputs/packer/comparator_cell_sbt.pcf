@@ -1,0 +1,13 @@
+ble_pack CONSTANT_ONE_LUT4_LC_5_30_1 { CONSTANT_ONE_LUT4 }
+clb_pack LT_5_30 { CONSTANT_ONE_LUT4_LC_5_30_1 }
+set_location LT_5_30 5 30
+ble_pack pin_out_driver_RNO_LC_13_30_5 { pin_out_driver_RNO }
+clb_pack LT_13_30 { pin_out_driver_RNO_LC_13_30_5 }
+set_location LT_13_30 13 30
+set_io sw2[1] 43
+set_io sw1[0] 23
+set_io LED_G 40
+set_io sw2[0] 34
+set_io sw1[1] 25
+set_io LED_R 41
+set_io LED_B 39

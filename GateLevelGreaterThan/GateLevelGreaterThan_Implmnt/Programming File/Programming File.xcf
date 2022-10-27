@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="3.12">
+	<Comment></Comment>
+	<Chain>
+		<Comm>JTAG</Comm>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>1</Pos>
+			<Vendor>Micron</Vendor>
+			<Family>iCE40 UltraPlus</Family>
+			<Name>iCE40UP5K</Name>
+			<Package>All</Package>
+			<Bypass>
+				<InstrLen>8</InstrLen>
+				<InstrVal>11111111</InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>C:/Users/kolel/OneDrive/Lattice FPGA/GateLevelGreaterThan/GateLevelGreaterThan_Implmnt/sbt/outputs/bitmap/comparator_bitmap.hex</File>
+			<FileTime>10/26/22 22:37:19</FileTime>
+			<JedecChecksum>0xA248</JedecChecksum>
+			<Operation>SPI Flash Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<AccessMode>SPI Flash Programming</AccessMode>
+			</Option>
+			<FPGALoader>
+			<CPLDDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Lattice</Vendor>
+					<Family>iCE40 UltraPlus</Family>
+					<Name>iCE40UP5K</Name>
+					<IDCode>0x11200639</IDCode>
+					<Package>All</Package>
+					<PON>iCE40UP5K</PON>
+					<Bypass>
+						<InstrLen>8</InstrLen>
+						<InstrVal>11111111</InstrVal>
+						<BScanLen>1</BScanLen>
+						<BScanVal>0</BScanVal>
+					</Bypass>
+					<Operation>Bypass</Operation>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<IOState>HighZ</IOState>
+						<IOVectorData>P•E</IOVectorData>
+						<AccessMode>JTAG</AccessMode>
+					</Option>
+				</Device>
+			</CPLDDevice>
+			<FlashDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Micron</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>N25Q032A</Name>
+					<IDCode>0x16</IDCode>
+					<Package>16-pin SOIC</Package>
+					<Operation>SPI Flash Erase,Program,Verify</Operation>
+					<File>C:/Users/kolel/OneDrive/Lattice FPGA/GateLevelGreaterThan/GateLevelGreaterThan_Implmnt/sbt/outputs/bitmap/comparator_bitmap.hex</File>
+					<AddressBase>0x00000000</AddressBase>
+					<EndAddress>0x00010000</EndAddress>
+					<DeviceSize>32</DeviceSize>
+					<DataSize>104156</DataSize>
+					<NumberOfDevices>1</NumberOfDevices>
+					<ReInitialize value="FALSE"/>
+				</Device>
+			</FlashDevice>
+			<FPGADevice>
+				<Device>
+					<Pos>1</Pos>
+					<Name></Name>
+					<File>C:/Users/kolel/OneDrive/Lattice FPGA/GateLevelGreaterThan/GateLevelGreaterThan_Implmnt/sbt/outputs/bitmap/comparator_bitmap.hex</File>
+					<LocalChainList>
+						<LocalDevice index="-99"
+							name="Unknown"
+							file="C:/Users/kolel/OneDrive/Lattice FPGA/GateLevelGreaterThan/GateLevelGreaterThan_Implmnt/sbt/outputs/bitmap/comparator_bitmap.hex"/>
+					</LocalChainList>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+					</Option>
+				</Device>
+			</FPGADevice>
+			</FPGALoader>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<DisableCheckBoard value="TRUE"/>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>USB --- Serial Converter A Location 0000 Serial FT4UCZJ7A</USBID>
+	</CableOptions>
+</ispXCF>

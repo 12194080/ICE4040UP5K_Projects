@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L+ice40
+#--  Project file C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\GateLevelGreaterThan_syn.prd
+#--  Written on Wed Oct 26 22:32:32 2022
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear
