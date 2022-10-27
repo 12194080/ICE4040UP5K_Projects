@@ -1,2 +1,3 @@
-@E: CG478 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":81:18:81:104|Expression size is either 0 or could not be determined.
+@E: CS177 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":82:8:82:8|Expecting net name
+@E: CS187 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":84:0:84:8|Expecting endmodule
 

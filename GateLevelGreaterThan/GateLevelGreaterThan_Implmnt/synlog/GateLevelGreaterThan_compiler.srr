@@ -13,7 +13,9 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v" (library work)
 Verilog syntax check successful!
-File C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v changed - recompiling
+
+Compiler output is up to date.  No re-compile necessary
+
 Selecting top level module comparator
 @N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":4073:7:4073:14|Synthesizing module SB_IO_OD in library work.
 
@@ -38,12 +40,12 @@ Selecting top level module comparator
 @W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input OUTPUTENABLE on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
 @W: CG781 :"C:\Users\kolel\OneDrive\Lattice FPGA\GateLevelGreaterThan\main.v":67:3:67:17|Input DOUT1 on instance pin_out_driver3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Oct 26 22:36:57 2022
+# Thu Oct 27 19:31:18 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -56,7 +58,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Oct 26 22:36:57 2022
+# Thu Oct 27 19:31:18 2022
 
 ###########################################################]
 @END
@@ -66,6 +68,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Oct 26 22:36:57 2022
+# Thu Oct 27 19:31:18 2022
 
 ###########################################################]

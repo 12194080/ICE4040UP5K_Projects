@@ -6,7 +6,7 @@
 
 # Build Date:         Dec  9 2020 17:33:20
 
-# File Generated:     Oct 26 2022 22:37:17
+# File Generated:     Oct 27 2022 19:29:27
 
 # Purpose:            Timing Report with critical paths info
 
@@ -52,10 +52,10 @@ Data Port  Clock Port  Clock to Out  Clock Reference:Phase
 
 Port Name (Input)  Port Name (Output)  Pad to Pad  
 -----------------  ------------------  ----------  
-sw1[1]             LED_B               13011       
+sw1[1]             LED_B               13078       
 sw1[0]             LED_B               12694       
-sw2[1]             LED_B               12667       
-sw2[0]             LED_B               11382       
+sw2[0]             LED_B               12601       
+sw2[1]             LED_B               11382       
 
 
                          3.4::Hold Times
@@ -77,10 +77,10 @@ Data Port  Clock Port  Minimum Clock to Out  Clock Reference:Phase
 
 Port Name (Input)  Port Name (Output)  Minimum Pad To Pad  
 -----------------  ------------------  ------------------  
-sw2[0]             LED_B               10801               
+sw2[1]             LED_B               10828               
+sw2[0]             LED_B               12192               
 sw1[0]             LED_B               12205               
-sw2[1]             LED_B               12271               
-sw1[1]             LED_B               12563               
+sw1[1]             LED_B               12616               
 
  =====================================================================
                     End of Datasheet Report
@@ -101,7 +101,7 @@ sw1[1]             LED_B               12563
 
 Output Port      : LED_B
 Input Port       : sw1[1]
-Pad to Pad Delay : 13011
+Pad to Pad Delay : 13078
 
 Pad to Pad Path
 pin name                             model name                 delay  cummulative delay  edge  Fanout  
@@ -111,29 +111,29 @@ sw1_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                     0      0        
 sw1_ibuf_1_iopad/DOUT                IO_PAD                     590    590                RISE  1       
 sw1_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      590                RISE  1       
 sw1_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1080               RISE  1       
-I__24/I                              Odrv4                      0      1080               RISE  1       
-I__24/O                              Odrv4                      596    1676               RISE  1       
-I__25/I                              Span4Mux_h                 0      1676               RISE  1       
-I__25/O                              Span4Mux_h                 517    2193               RISE  1       
-I__26/I                              Span4Mux_h                 0      2193               RISE  1       
-I__26/O                              Span4Mux_h                 517    2709               RISE  1       
-I__27/I                              LocalMux                   0      2709               RISE  1       
-I__27/O                              LocalMux                   1099   3808               RISE  1       
-I__28/I                              InMux                      0      3808               RISE  1       
-I__28/O                              InMux                      662    4471               RISE  1       
-pin_out_driver_RNO_LC_13_30_5/in1    LogicCell40_SEQ_MODE_0000  0      4471               RISE  1       
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1179   5649               RISE  1       
-I__12/I                              Odrv12                     0      5649               RISE  1       
-I__12/O                              Odrv12                     1073   6722               RISE  1       
-I__13/I                              Span12Mux_s0_v             0      6722               RISE  1       
-I__13/O                              Span12Mux_s0_v             199    6921               RISE  1       
-I__14/I                              LocalMux                   0      6921               RISE  1       
-I__14/O                              LocalMux                   1099   8020               RISE  1       
-I__15/I                              IoInMux                    0      8020               RISE  1       
-I__15/O                              IoInMux                    662    8682               RISE  1       
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      8682               RISE  1       
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4329   13011              RISE  1       
-LED_B                                comparator                 0      13011              RISE  1       
+I__28/I                              Odrv4                      0      1080               RISE  1       
+I__28/O                              Odrv4                      596    1676               RISE  1       
+I__29/I                              Span4Mux_h                 0      1676               RISE  1       
+I__29/O                              Span4Mux_h                 517    2193               RISE  1       
+I__30/I                              Span4Mux_h                 0      2193               RISE  1       
+I__30/O                              Span4Mux_h                 517    2709               RISE  1       
+I__31/I                              LocalMux                   0      2709               RISE  1       
+I__31/O                              LocalMux                   1099   3808               RISE  1       
+I__32/I                              InMux                      0      3808               RISE  1       
+I__32/O                              InMux                      662    4471               RISE  1       
+pin_out_driver_RNO_LC_13_30_5/in0    LogicCell40_SEQ_MODE_0000  0      4471               RISE  1       
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1245   5716               RISE  1       
+I__12/I                              Odrv12                     0      5716               RISE  1       
+I__12/O                              Odrv12                     1073   6788               RISE  1       
+I__13/I                              Span12Mux_s0_v             0      6788               RISE  1       
+I__13/O                              Span12Mux_s0_v             199    6987               RISE  1       
+I__14/I                              LocalMux                   0      6987               RISE  1       
+I__14/O                              LocalMux                   1099   8086               RISE  1       
+I__15/I                              IoInMux                    0      8086               RISE  1       
+I__15/O                              IoInMux                    662    8749               RISE  1       
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      8749               RISE  1       
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4329   13078              RISE  1       
+LED_B                                comparator                 0      13078              RISE  1       
 
 ++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -176,44 +176,8 @@ LED_B                                comparator                 0      12694    
 ++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Output Port      : LED_B
-Input Port       : sw2[1]
-Pad to Pad Delay : 12667
-
-Pad to Pad Path
-pin name                             model name                 delay  cummulative delay  edge  Fanout  
------------------------------------  -------------------------  -----  -----------------  ----  ------  
-sw2[1]                               comparator                 0      0                  RISE  1       
-sw2_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                     0      0                  RISE  1       
-sw2_ibuf_1_iopad/DOUT                IO_PAD                     590    590                RISE  1       
-sw2_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      590                RISE  1       
-sw2_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1080               RISE  1       
-I__29/I                              Odrv4                      0      1080               RISE  1       
-I__29/O                              Odrv4                      596    1676               RISE  1       
-I__30/I                              IoSpan4Mux                 0      1676               RISE  1       
-I__30/O                              IoSpan4Mux                 622    2299               RISE  1       
-I__31/I                              LocalMux                   0      2299               RISE  1       
-I__31/O                              LocalMux                   1099   3398               RISE  1       
-I__32/I                              InMux                      0      3398               RISE  1       
-I__32/O                              InMux                      662    4060               RISE  1       
-pin_out_driver_RNO_LC_13_30_5/in0    LogicCell40_SEQ_MODE_0000  0      4060               RISE  1       
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1245   5305               RISE  1       
-I__12/I                              Odrv12                     0      5305               RISE  1       
-I__12/O                              Odrv12                     1073   6378               RISE  1       
-I__13/I                              Span12Mux_s0_v             0      6378               RISE  1       
-I__13/O                              Span12Mux_s0_v             199    6577               RISE  1       
-I__14/I                              LocalMux                   0      6577               RISE  1       
-I__14/O                              LocalMux                   1099   7676               RISE  1       
-I__15/I                              IoInMux                    0      7676               RISE  1       
-I__15/O                              IoInMux                    662    8338               RISE  1       
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      8338               RISE  1       
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4329   12667              RISE  1       
-LED_B                                comparator                 0      12667              RISE  1       
-
-++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Output Port      : LED_B
 Input Port       : sw2[0]
-Pad to Pad Delay : 11382
+Pad to Pad Delay : 12601
 
 Pad to Pad Path
 pin name                             model name                 delay  cummulative delay  edge  Fanout  
@@ -223,13 +187,49 @@ sw2_ibuf_0_iopad/PACKAGEPIN:in       IO_PAD                     0      0        
 sw2_ibuf_0_iopad/DOUT                IO_PAD                     590    590                RISE  1       
 sw2_ibuf_0_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      590                RISE  1       
 sw2_ibuf_0_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1080               RISE  1       
-I__21/I                              LocalMux                   0      1080               RISE  1       
-I__21/O                              LocalMux                   1099   2179               RISE  1       
-I__22/I                              InMux                      0      2179               RISE  1       
-I__22/O                              InMux                      662    2842               RISE  1       
-I__23/I                              CascadeMux                 0      2842               RISE  1       
-I__23/O                              CascadeMux                 0      2842               RISE  1       
-pin_out_driver_RNO_LC_13_30_5/in2    LogicCell40_SEQ_MODE_0000  0      2842               RISE  1       
+I__21/I                              Odrv4                      0      1080               RISE  1       
+I__21/O                              Odrv4                      596    1676               RISE  1       
+I__22/I                              IoSpan4Mux                 0      1676               RISE  1       
+I__22/O                              IoSpan4Mux                 622    2299               RISE  1       
+I__23/I                              LocalMux                   0      2299               RISE  1       
+I__23/O                              LocalMux                   1099   3398               RISE  1       
+I__24/I                              InMux                      0      3398               RISE  1       
+I__24/O                              InMux                      662    4060               RISE  1       
+I__25/I                              CascadeMux                 0      4060               RISE  1       
+I__25/O                              CascadeMux                 0      4060               RISE  1       
+pin_out_driver_RNO_LC_13_30_5/in2    LogicCell40_SEQ_MODE_0000  0      4060               RISE  1       
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1179   5239               RISE  1       
+I__12/I                              Odrv12                     0      5239               RISE  1       
+I__12/O                              Odrv12                     1073   6312               RISE  1       
+I__13/I                              Span12Mux_s0_v             0      6312               RISE  1       
+I__13/O                              Span12Mux_s0_v             199    6510               RISE  1       
+I__14/I                              LocalMux                   0      6510               RISE  1       
+I__14/O                              LocalMux                   1099   7610               RISE  1       
+I__15/I                              IoInMux                    0      7610               RISE  1       
+I__15/O                              IoInMux                    662    8272               RISE  1       
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      8272               RISE  1       
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4329   12601              RISE  1       
+LED_B                                comparator                 0      12601              RISE  1       
+
+++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Output Port      : LED_B
+Input Port       : sw2[1]
+Pad to Pad Delay : 11382
+
+Pad to Pad Path
+pin name                             model name                 delay  cummulative delay  edge  Fanout  
+-----------------------------------  -------------------------  -----  -----------------  ----  ------  
+sw2[1]                               comparator                 0      0                  RISE  1       
+sw2_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                     0      0                  RISE  1       
+sw2_ibuf_1_iopad/DOUT                IO_PAD                     590    590                RISE  1       
+sw2_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      590                RISE  1       
+sw2_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1080               RISE  1       
+I__26/I                              LocalMux                   0      1080               RISE  1       
+I__26/O                              LocalMux                   1099   2179               RISE  1       
+I__27/I                              InMux                      0      2179               RISE  1       
+I__27/O                              InMux                      662    2842               RISE  1       
+pin_out_driver_RNO_LC_13_30_5/in1    LogicCell40_SEQ_MODE_0000  0      2842               RISE  1       
 pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1179   4020               RISE  1       
 I__12/I                              Odrv12                     0      4020               RISE  1       
 I__12/O                              Odrv12                     1073   5093               RISE  1       
@@ -252,8 +252,40 @@ LED_B                                comparator                 0      11382    
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Output Port      : LED_B
+Input Port       : sw2[1]
+Pad to Pad Delay : 10828
+
+Pad to Pad Path
+pin name                             model name                 delay  cummulative delay  edge  Fanout  
+-----------------------------------  -------------------------  -----  -----------------  ----  ------  
+sw2[1]                               comparator                 0      0                  FALL  1       
+sw2_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                     0      0                  FALL  1       
+sw2_ibuf_1_iopad/DOUT                IO_PAD                     540    540                FALL  1       
+sw2_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      540                FALL  1       
+sw2_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1030               FALL  1       
+I__26/I                              LocalMux                   0      1030               FALL  1       
+I__26/O                              LocalMux                   768    1798               FALL  1       
+I__27/I                              InMux                      0      1798               FALL  1       
+I__27/O                              InMux                      503    2302               FALL  1       
+pin_out_driver_RNO_LC_13_30_5/in1    LogicCell40_SEQ_MODE_0000  0      2302               FALL  1       
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1232   3533               FALL  1       
+I__12/I                              Odrv12                     0      3533               FALL  1       
+I__12/O                              Odrv12                     1232   4765               FALL  1       
+I__13/I                              Span12Mux_s0_v             0      4765               FALL  1       
+I__13/O                              Span12Mux_s0_v             199    4964               FALL  1       
+I__14/I                              LocalMux                   0      4964               FALL  1       
+I__14/O                              LocalMux                   768    5732               FALL  1       
+I__15/I                              IoInMux                    0      5732               FALL  1       
+I__15/O                              IoInMux                    503    6235               FALL  1       
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      6235               FALL  1       
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   10828              FALL  1       
+LED_B                                comparator                 0      10828              FALL  1       
+
+++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Output Port      : LED_B
 Input Port       : sw2[0]
-Pad to Pad Delay : 10801
+Pad to Pad Delay : 12192
 
 Pad to Pad Path
 pin name                             model name                 delay  cummulative delay  edge  Fanout  
@@ -263,27 +295,31 @@ sw2_ibuf_0_iopad/PACKAGEPIN:in       IO_PAD                     0      0        
 sw2_ibuf_0_iopad/DOUT                IO_PAD                     540    540                FALL  1       
 sw2_ibuf_0_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      540                FALL  1       
 sw2_ibuf_0_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1030               FALL  1       
-I__21/I                              LocalMux                   0      1030               FALL  1       
-I__21/O                              LocalMux                   768    1798               FALL  1       
-I__22/I                              InMux                      0      1798               FALL  1       
-I__22/O                              InMux                      503    2302               FALL  1       
-I__23/I                              CascadeMux                 0      2302               FALL  1       
-I__23/O                              CascadeMux                 0      2302               FALL  1       
-pin_out_driver_RNO_LC_13_30_5/in2    LogicCell40_SEQ_MODE_0000  0      2302               FALL  1       
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1205   3507               FALL  1       
-I__12/I                              Odrv12                     0      3507               FALL  1       
-I__12/O                              Odrv12                     1232   4739               FALL  1       
-I__13/I                              Span12Mux_s0_v             0      4739               FALL  1       
-I__13/O                              Span12Mux_s0_v             199    4937               FALL  1       
-I__14/I                              LocalMux                   0      4937               FALL  1       
-I__14/O                              LocalMux                   768    5705               FALL  1       
-I__15/I                              IoInMux                    0      5705               FALL  1       
-I__15/O                              IoInMux                    503    6209               FALL  1       
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      6209               FALL  1       
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   10801              FALL  1       
-LED_B                                comparator                 0      10801              FALL  1       
+I__21/I                              Odrv4                      0      1030               FALL  1       
+I__21/O                              Odrv4                      649    1679               FALL  1       
+I__22/I                              IoSpan4Mux                 0      1679               FALL  1       
+I__22/O                              IoSpan4Mux                 742    2421               FALL  1       
+I__23/I                              LocalMux                   0      2421               FALL  1       
+I__23/O                              LocalMux                   768    3189               FALL  1       
+I__24/I                              InMux                      0      3189               FALL  1       
+I__24/O                              InMux                      503    3692               FALL  1       
+I__25/I                              CascadeMux                 0      3692               FALL  1       
+I__25/O                              CascadeMux                 0      3692               FALL  1       
+pin_out_driver_RNO_LC_13_30_5/in2    LogicCell40_SEQ_MODE_0000  0      3692               FALL  1       
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1205   4897               FALL  1       
+I__12/I                              Odrv12                     0      4897               FALL  1       
+I__12/O                              Odrv12                     1232   6129               FALL  1       
+I__13/I                              Span12Mux_s0_v             0      6129               FALL  1       
+I__13/O                              Span12Mux_s0_v             199    6328               FALL  1       
+I__14/I                              LocalMux                   0      6328               FALL  1       
+I__14/O                              LocalMux                   768    7096               FALL  1       
+I__15/I                              IoInMux                    0      7096               FALL  1       
+I__15/O                              IoInMux                    503    7599               FALL  1       
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      7599               FALL  1       
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   12192              FALL  1       
+LED_B                                comparator                 0      12192              FALL  1       
 
-++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Output Port      : LED_B
 Input Port       : sw1[0]
@@ -321,47 +357,11 @@ pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      7613     
 pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   12205              FALL  1       
 LED_B                                comparator                 0      12205              FALL  1       
 
-++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Output Port      : LED_B
-Input Port       : sw2[1]
-Pad to Pad Delay : 12271
-
-Pad to Pad Path
-pin name                             model name                 delay  cummulative delay  edge  Fanout  
------------------------------------  -------------------------  -----  -----------------  ----  ------  
-sw2[1]                               comparator                 0      0                  FALL  1       
-sw2_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                     0      0                  FALL  1       
-sw2_ibuf_1_iopad/DOUT                IO_PAD                     540    540                FALL  1       
-sw2_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      540                FALL  1       
-sw2_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1030               FALL  1       
-I__29/I                              Odrv4                      0      1030               FALL  1       
-I__29/O                              Odrv4                      649    1679               FALL  1       
-I__30/I                              IoSpan4Mux                 0      1679               FALL  1       
-I__30/O                              IoSpan4Mux                 742    2421               FALL  1       
-I__31/I                              LocalMux                   0      2421               FALL  1       
-I__31/O                              LocalMux                   768    3189               FALL  1       
-I__32/I                              InMux                      0      3189               FALL  1       
-I__32/O                              InMux                      503    3692               FALL  1       
-pin_out_driver_RNO_LC_13_30_5/in0    LogicCell40_SEQ_MODE_0000  0      3692               FALL  1       
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1285   4977               FALL  1       
-I__12/I                              Odrv12                     0      4977               FALL  1       
-I__12/O                              Odrv12                     1232   6209               FALL  1       
-I__13/I                              Span12Mux_s0_v             0      6209               FALL  1       
-I__13/O                              Span12Mux_s0_v             199    6407               FALL  1       
-I__14/I                              LocalMux                   0      6407               FALL  1       
-I__14/O                              LocalMux                   768    7176               FALL  1       
-I__15/I                              IoInMux                    0      7176               FALL  1       
-I__15/O                              IoInMux                    503    7679               FALL  1       
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      7679               FALL  1       
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   12271              FALL  1       
-LED_B                                comparator                 0      12271              FALL  1       
-
 ++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Output Port      : LED_B
 Input Port       : sw1[1]
-Pad to Pad Delay : 12563
+Pad to Pad Delay : 12616
 
 Pad to Pad Path
 pin name                             model name                 delay  cummulative delay  edge  Fanout  
@@ -371,29 +371,29 @@ sw1_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                     0      0        
 sw1_ibuf_1_iopad/DOUT                IO_PAD                     540    540                FALL  1       
 sw1_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001     0      540                FALL  1       
 sw1_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001     490    1030               FALL  1       
-I__24/I                              Odrv4                      0      1030               FALL  1       
-I__24/O                              Odrv4                      649    1679               FALL  1       
-I__25/I                              Span4Mux_h                 0      1679               FALL  1       
-I__25/O                              Span4Mux_h                 543    2222               FALL  1       
-I__26/I                              Span4Mux_h                 0      2222               FALL  1       
-I__26/O                              Span4Mux_h                 543    2765               FALL  1       
-I__27/I                              LocalMux                   0      2765               FALL  1       
-I__27/O                              LocalMux                   768    3533               FALL  1       
-I__28/I                              InMux                      0      3533               FALL  1       
-I__28/O                              InMux                      503    4037               FALL  1       
-pin_out_driver_RNO_LC_13_30_5/in1    LogicCell40_SEQ_MODE_0000  0      4037               FALL  1       
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1232   5268               FALL  1       
-I__12/I                              Odrv12                     0      5268               FALL  1       
-I__12/O                              Odrv12                     1232   6500               FALL  1       
-I__13/I                              Span12Mux_s0_v             0      6500               FALL  1       
-I__13/O                              Span12Mux_s0_v             199    6699               FALL  1       
-I__14/I                              LocalMux                   0      6699               FALL  1       
-I__14/O                              LocalMux                   768    7467               FALL  1       
-I__15/I                              IoInMux                    0      7467               FALL  1       
-I__15/O                              IoInMux                    503    7970               FALL  1       
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      7970               FALL  1       
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   12563              FALL  1       
-LED_B                                comparator                 0      12563              FALL  1       
+I__28/I                              Odrv4                      0      1030               FALL  1       
+I__28/O                              Odrv4                      649    1679               FALL  1       
+I__29/I                              Span4Mux_h                 0      1679               FALL  1       
+I__29/O                              Span4Mux_h                 543    2222               FALL  1       
+I__30/I                              Span4Mux_h                 0      2222               FALL  1       
+I__30/O                              Span4Mux_h                 543    2765               FALL  1       
+I__31/I                              LocalMux                   0      2765               FALL  1       
+I__31/O                              LocalMux                   768    3533               FALL  1       
+I__32/I                              InMux                      0      3533               FALL  1       
+I__32/O                              InMux                      503    4037               FALL  1       
+pin_out_driver_RNO_LC_13_30_5/in0    LogicCell40_SEQ_MODE_0000  0      4037               FALL  1       
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000  1285   5321               FALL  1       
+I__12/I                              Odrv12                     0      5321               FALL  1       
+I__12/O                              Odrv12                     1232   6553               FALL  1       
+I__13/I                              Span12Mux_s0_v             0      6553               FALL  1       
+I__13/O                              Span12Mux_s0_v             199    6752               FALL  1       
+I__14/I                              LocalMux                   0      6752               FALL  1       
+I__14/O                              LocalMux                   768    7520               FALL  1       
+I__15/I                              IoInMux                    0      7520               FALL  1       
+I__15/O                              IoInMux                    503    8023               FALL  1       
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001   0      8023               FALL  1       
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001   4593   12616              FALL  1       
+LED_B                                comparator                 0      12616              FALL  1       
 
 
  =====================================================================
@@ -416,9 +416,9 @@ End-of-path required time (ps)           +INF
 Launch Clock Arrival Time (DEFAULT:R#0)       0
 + Launch Clock Source Latency                 0
 + Input Delay                                 0
-+ Data Path Delay                         12321
++ Data Path Delay                         10878
 ---------------------------------------   ----- 
-End-of-path arrival time (ps)             12321
+End-of-path arrival time (ps)             10878
  
 Data path
 pin name                             model name                 delay  cumulative delay  slack  edge  Fanout
@@ -428,27 +428,23 @@ sw2_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                         0           
 sw2_ibuf_1_iopad/DOUT                IO_PAD                       590               590   +INF  RISE       1
 sw2_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001         0               590   +INF  RISE       1
 sw2_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001       490              1080   +INF  FALL       1
-I__29/I                              Odrv4                          0              1080   +INF  FALL       1
-I__29/O                              Odrv4                        649              1729   +INF  FALL       1
-I__30/I                              IoSpan4Mux                     0              1729   +INF  FALL       1
-I__30/O                              IoSpan4Mux                   742              2471   +INF  FALL       1
-I__31/I                              LocalMux                       0              2471   +INF  FALL       1
-I__31/O                              LocalMux                     768              3239   +INF  FALL       1
-I__32/I                              InMux                          0              3239   +INF  FALL       1
-I__32/O                              InMux                        503              3742   +INF  FALL       1
-pin_out_driver_RNO_LC_13_30_5/in0    LogicCell40_SEQ_MODE_0000      0              3742   +INF  FALL       1
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000   1285              5027   +INF  FALL       1
-I__12/I                              Odrv12                         0              5027   +INF  FALL       1
-I__12/O                              Odrv12                      1232              6259   +INF  FALL       1
-I__13/I                              Span12Mux_s0_v                 0              6259   +INF  FALL       1
-I__13/O                              Span12Mux_s0_v               199              6457   +INF  FALL       1
-I__14/I                              LocalMux                       0              6457   +INF  FALL       1
-I__14/O                              LocalMux                     768              7226   +INF  FALL       1
-I__15/I                              IoInMux                        0              7226   +INF  FALL       1
-I__15/O                              IoInMux                      503              7729   +INF  FALL       1
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001       0              7729   +INF  FALL       1
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001    4593             12321   +INF  FALL       1
-LED_B                                comparator                     0             12321   +INF  FALL       1
+I__26/I                              LocalMux                       0              1080   +INF  FALL       1
+I__26/O                              LocalMux                     768              1848   +INF  FALL       1
+I__27/I                              InMux                          0              1848   +INF  FALL       1
+I__27/O                              InMux                        503              2352   +INF  FALL       1
+pin_out_driver_RNO_LC_13_30_5/in1    LogicCell40_SEQ_MODE_0000      0              2352   +INF  FALL       1
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000   1232              3583   +INF  FALL       1
+I__12/I                              Odrv12                         0              3583   +INF  FALL       1
+I__12/O                              Odrv12                      1232              4815   +INF  FALL       1
+I__13/I                              Span12Mux_s0_v                 0              4815   +INF  FALL       1
+I__13/O                              Span12Mux_s0_v               199              5014   +INF  FALL       1
+I__14/I                              LocalMux                       0              5014   +INF  FALL       1
+I__14/O                              LocalMux                     768              5782   +INF  FALL       1
+I__15/I                              IoInMux                        0              5782   +INF  FALL       1
+I__15/O                              IoInMux                      503              6285   +INF  FALL       1
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001       0              6285   +INF  FALL       1
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001    4593             10878   +INF  FALL       1
+LED_B                                comparator                     0             10878   +INF  FALL       1
 
 ===================================================================== 
                     End of Detailed Setup Report for all timing paths 
@@ -470,9 +466,9 @@ End-of-path required time (ps)           +INF
 Launch Clock Arrival Time (DEFAULT:R#0)       0
 + Launch Clock Source Latency                 0
 + Input Delay                                 0
-+ Data Path Delay                         12321
++ Data Path Delay                         10878
 ---------------------------------------   ----- 
-End-of-path arrival time (ps)             12321
+End-of-path arrival time (ps)             10878
  
 Data path
 pin name                             model name                 delay  cumulative delay  slack  edge  Fanout
@@ -482,27 +478,23 @@ sw2_ibuf_1_iopad/PACKAGEPIN:in       IO_PAD                         0           
 sw2_ibuf_1_iopad/DOUT                IO_PAD                       590               590   +INF  RISE       1
 sw2_ibuf_1_preio/PADIN               PRE_IO_PIN_TYPE_000001         0               590   +INF  RISE       1
 sw2_ibuf_1_preio/DIN0                PRE_IO_PIN_TYPE_000001       490              1080   +INF  FALL       1
-I__29/I                              Odrv4                          0              1080   +INF  FALL       1
-I__29/O                              Odrv4                        649              1729   +INF  FALL       1
-I__30/I                              IoSpan4Mux                     0              1729   +INF  FALL       1
-I__30/O                              IoSpan4Mux                   742              2471   +INF  FALL       1
-I__31/I                              LocalMux                       0              2471   +INF  FALL       1
-I__31/O                              LocalMux                     768              3239   +INF  FALL       1
-I__32/I                              InMux                          0              3239   +INF  FALL       1
-I__32/O                              InMux                        503              3742   +INF  FALL       1
-pin_out_driver_RNO_LC_13_30_5/in0    LogicCell40_SEQ_MODE_0000      0              3742   +INF  FALL       1
-pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000   1285              5027   +INF  FALL       1
-I__12/I                              Odrv12                         0              5027   +INF  FALL       1
-I__12/O                              Odrv12                      1232              6259   +INF  FALL       1
-I__13/I                              Span12Mux_s0_v                 0              6259   +INF  FALL       1
-I__13/O                              Span12Mux_s0_v               199              6457   +INF  FALL       1
-I__14/I                              LocalMux                       0              6457   +INF  FALL       1
-I__14/O                              LocalMux                     768              7226   +INF  FALL       1
-I__15/I                              IoInMux                        0              7226   +INF  FALL       1
-I__15/O                              IoInMux                      503              7729   +INF  FALL       1
-pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001       0              7729   +INF  FALL       1
-pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001    4593             12321   +INF  FALL       1
-LED_B                                comparator                     0             12321   +INF  FALL       1
+I__26/I                              LocalMux                       0              1080   +INF  FALL       1
+I__26/O                              LocalMux                     768              1848   +INF  FALL       1
+I__27/I                              InMux                          0              1848   +INF  FALL       1
+I__27/O                              InMux                        503              2352   +INF  FALL       1
+pin_out_driver_RNO_LC_13_30_5/in1    LogicCell40_SEQ_MODE_0000      0              2352   +INF  FALL       1
+pin_out_driver_RNO_LC_13_30_5/lcout  LogicCell40_SEQ_MODE_0000   1232              3583   +INF  FALL       1
+I__12/I                              Odrv12                         0              3583   +INF  FALL       1
+I__12/O                              Odrv12                      1232              4815   +INF  FALL       1
+I__13/I                              Span12Mux_s0_v                 0              4815   +INF  FALL       1
+I__13/O                              Span12Mux_s0_v               199              5014   +INF  FALL       1
+I__14/I                              LocalMux                       0              5014   +INF  FALL       1
+I__14/O                              LocalMux                     768              5782   +INF  FALL       1
+I__15/I                              IoInMux                        0              5782   +INF  FALL       1
+I__15/O                              IoInMux                      503              6285   +INF  FALL       1
+pin_out_driver/DOUT0                 SB_IO_OD_PIN_TYPE_011001       0              6285   +INF  FALL       1
+pin_out_driver/PACKAGEPIN:out        SB_IO_OD_PIN_TYPE_011001    4593             10878   +INF  FALL       1
+LED_B                                comparator                     0             10878   +INF  FALL       1
 
 ===================================================================== 
                     End of Detailed Hold Report for all timing paths 

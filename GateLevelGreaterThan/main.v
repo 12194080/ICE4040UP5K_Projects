@@ -36,14 +36,14 @@ module comparator(input sw1[1:0],sw2[1:0], output LED_R, output LED_G, output LE
 	wire leds[2:0]; 
 	
 	
-	wire firstProduct = (~sw1[1] & ~sw1[0] & ~sw2[1] & sw2[0]); 
-	wire secondProduct = (~sw1[1] & ~sw1[0] & sw2[1] & ~sw2[0]);
-	wire thirdProduct = (~sw1[1] & ~sw1[0] & sw2[1] & sw2[0]);
+	wire firstProduct = (~sw1[1] & ~sw1[0] & ~sw2[1] &  sw2[0]); 
+	wire secondProduct= (~sw1[1] & ~sw1[0] &  sw2[1] & ~sw2[0]);
+	wire thirdProduct = (~sw1[1] & ~sw1[0] &  sw2[1] &  sw2[0]);
 	
-	wire forthProduct = (~sw1[1] & sw1[0] & sw2[1] & ~sw2[0]);
-	wire fifthProduct = (~sw1[1] & sw1[0] & sw2[1] & sw2[0]);
+	wire forthProduct = (~sw1[1] & sw1[0]  &  sw2[1] & ~sw2[0]);
+	wire fifthProduct = (~sw1[1] & sw1[0]  &  sw2[1] &  sw2[0]);
 	
-	wire sixProduct = (sw1[1] & ~sw1[0] & sw2[1] & sw2[0]);
+	wire sixProduct =   ( sw1[1] & ~sw1[0] & sw2[1] & sw2[0]);
 	
 	
 	
@@ -79,6 +79,6 @@ module comparator(input sw1[1:0],sw2[1:0], output LED_R, output LED_G, output LE
 	
 	assign leds[1] = 1'b1; 
 	assign leds[2] = 1'b1; 
-	assign leds[0] = firstProduct | secondProduct | thirdProduct | forthProduct | fifthProduct | sixProduct; 
+	assign leds[0] = ~(firstProduct | secondProduct | thirdProduct | forthProduct | fifthProduct | sixProduct); 
 
 endmodule

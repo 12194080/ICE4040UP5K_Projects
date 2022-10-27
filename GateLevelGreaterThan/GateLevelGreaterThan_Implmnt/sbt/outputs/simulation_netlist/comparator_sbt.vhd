@@ -6,7 +6,7 @@
 
 -- Build Date:         Dec  9 2020 18:18:06
 
--- File Generated:     Oct 26 2022 22:37:16
+-- File Generated:     Oct 27 2022 19:29:26
 
 -- Purpose:            Post-Route Verilog/VHDL netlist for timing simulation
 
@@ -78,11 +78,11 @@ signal \N__113\ : std_logic;
 signal \VCCG0\ : std_logic;
 signal \GNDG0\ : std_logic;
 signal \CONSTANT_ONE_NET\ : std_logic;
-signal sw2_c_1 : std_logic;
 signal sw1_c_1 : std_logic;
+signal sw2_c_1 : std_logic;
 signal sw2_c_0 : std_logic;
 signal sw1_c_0 : std_logic;
-signal \leds_0__0_i\ : std_logic;
+signal leds_0 : std_logic;
 signal \_gnd_net_\ : std_logic;
 
 signal sw2_wire : std_logic_vector(1 downto 0);
@@ -100,8 +100,8 @@ begin
 
     \sw2_ibuf_1_iopad\ : IO_PAD
     generic map (
-            IO_STANDARD => "SB_LVCMOS",
-            PULLUP => '0'
+            PULLUP => '1',
+            IO_STANDARD => "SB_LVCMOS"
         )
     port map (
             OE => \N__231\,
@@ -132,8 +132,8 @@ begin
 
     \sw1_ibuf_1_iopad\ : IO_PAD
     generic map (
-            IO_STANDARD => "SB_LVCMOS",
-            PULLUP => '0'
+            PULLUP => '1',
+            IO_STANDARD => "SB_LVCMOS"
         )
     port map (
             OE => \N__222\,
@@ -164,8 +164,8 @@ begin
 
     \sw2_ibuf_0_iopad\ : IO_PAD
     generic map (
-            IO_STANDARD => "SB_LVCMOS",
-            PULLUP => '0'
+            PULLUP => '1',
+            IO_STANDARD => "SB_LVCMOS"
         )
     port map (
             OE => \N__213\,
@@ -196,8 +196,8 @@ begin
 
     \sw1_ibuf_0_iopad\ : IO_PAD
     generic map (
-            IO_STANDARD => "SB_LVCMOS",
-            PULLUP => '0'
+            PULLUP => '1',
+            IO_STANDARD => "SB_LVCMOS"
         )
     port map (
             OE => \N__204\,
@@ -262,61 +262,61 @@ begin
             I => \N__167\
         );
 
-    \I__30\ : IoSpan4Mux
+    \I__30\ : Span4Mux_h
     port map (
             O => \N__167\,
             I => \N__164\
         );
 
-    \I__29\ : Odrv4
+    \I__29\ : Span4Mux_h
     port map (
             O => \N__164\,
-            I => sw2_c_1
+            I => \N__161\
         );
 
-    \I__28\ : InMux
+    \I__28\ : Odrv4
     port map (
             O => \N__161\,
-            I => \N__158\
+            I => sw1_c_1
         );
 
-    \I__27\ : LocalMux
+    \I__27\ : InMux
     port map (
             O => \N__158\,
             I => \N__155\
         );
 
-    \I__26\ : Span4Mux_h
+    \I__26\ : LocalMux
     port map (
             O => \N__155\,
-            I => \N__152\
+            I => sw2_c_1
         );
 
-    \I__25\ : Span4Mux_h
+    \I__25\ : CascadeMux
     port map (
             O => \N__152\,
             I => \N__149\
         );
 
-    \I__24\ : Odrv4
+    \I__24\ : InMux
     port map (
             O => \N__149\,
-            I => sw1_c_1
+            I => \N__146\
         );
 
-    \I__23\ : CascadeMux
+    \I__23\ : LocalMux
     port map (
             O => \N__146\,
             I => \N__143\
         );
 
-    \I__22\ : InMux
+    \I__22\ : IoSpan4Mux
     port map (
             O => \N__143\,
             I => \N__140\
         );
 
-    \I__21\ : LocalMux
+    \I__21\ : Odrv4
     port map (
             O => \N__140\,
             I => sw2_c_0
@@ -373,7 +373,7 @@ begin
     \I__12\ : Odrv12
     port map (
             O => \N__113\,
-            I => \leds_0__0_i\
+            I => leds_0
         );
 
     \VCC\ : VCC
@@ -469,14 +469,14 @@ begin
     generic map (
             C_ON => '0',
             SEQ_MODE => "0000",
-            LUT_INIT => "0010001010110010"
+            LUT_INIT => "1011101100101011"
         )
     port map (
             in0 => \N__173\,
-            in1 => \N__161\,
-            in2 => \N__146\,
+            in1 => \N__158\,
+            in2 => \N__152\,
             in3 => \N__137\,
-            lcout => \leds_0__0_i\,
+            lcout => leds_0,
             ltout => OPEN,
             carryin => \_gnd_net_\,
             carryout => OPEN,

@@ -6,7 +6,7 @@
 
 // Build Date:         Dec  9 2020 18:18:12
 
-// File Generated:     Oct 26 2022 22:37:16
+// File Generated:     Oct 27 2022 19:29:26
 
 // Purpose:            Post-Route Verilog/VHDL netlist for timing simulation
 
@@ -69,13 +69,14 @@ module comparator (
     wire VCCG0;
     wire GNDG0;
     wire CONSTANT_ONE_NET;
-    wire sw2_c_1;
     wire sw1_c_1;
+    wire sw2_c_1;
     wire sw2_c_0;
     wire sw1_c_0;
-    wire leds_0__0_i;
+    wire leds_0;
     wire _gnd_net_;
 
+    defparam sw2_ibuf_1_iopad.PULLUP=1'b1;
     defparam sw2_ibuf_1_iopad.IO_STANDARD="SB_LVCMOS";
     IO_PAD sw2_ibuf_1_iopad (
             .OE(N__231),
@@ -97,6 +98,7 @@ module comparator (
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
+    defparam sw1_ibuf_1_iopad.PULLUP=1'b1;
     defparam sw1_ibuf_1_iopad.IO_STANDARD="SB_LVCMOS";
     IO_PAD sw1_ibuf_1_iopad (
             .OE(N__222),
@@ -118,6 +120,7 @@ module comparator (
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
+    defparam sw2_ibuf_0_iopad.PULLUP=1'b1;
     defparam sw2_ibuf_0_iopad.IO_STANDARD="SB_LVCMOS";
     IO_PAD sw2_ibuf_0_iopad (
             .OE(N__213),
@@ -139,6 +142,7 @@ module comparator (
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
+    defparam sw1_ibuf_0_iopad.PULLUP=1'b1;
     defparam sw1_ibuf_0_iopad.IO_STANDARD="SB_LVCMOS";
     IO_PAD sw1_ibuf_0_iopad (
             .OE(N__204),
@@ -178,34 +182,34 @@ module comparator (
     LocalMux I__31 (
             .O(N__170),
             .I(N__167));
-    IoSpan4Mux I__30 (
+    Span4Mux_h I__30 (
             .O(N__167),
             .I(N__164));
-    Odrv4 I__29 (
+    Span4Mux_h I__29 (
             .O(N__164),
-            .I(sw2_c_1));
-    InMux I__28 (
+            .I(N__161));
+    Odrv4 I__28 (
             .O(N__161),
-            .I(N__158));
-    LocalMux I__27 (
+            .I(sw1_c_1));
+    InMux I__27 (
             .O(N__158),
             .I(N__155));
-    Span4Mux_h I__26 (
+    LocalMux I__26 (
             .O(N__155),
-            .I(N__152));
-    Span4Mux_h I__25 (
+            .I(sw2_c_1));
+    CascadeMux I__25 (
             .O(N__152),
             .I(N__149));
-    Odrv4 I__24 (
+    InMux I__24 (
             .O(N__149),
-            .I(sw1_c_1));
-    CascadeMux I__23 (
+            .I(N__146));
+    LocalMux I__23 (
             .O(N__146),
             .I(N__143));
-    InMux I__22 (
+    IoSpan4Mux I__22 (
             .O(N__143),
             .I(N__140));
-    LocalMux I__21 (
+    Odrv4 I__21 (
             .O(N__140),
             .I(sw2_c_0));
     InMux I__20 (
@@ -234,7 +238,7 @@ module comparator (
             .I(N__113));
     Odrv12 I__12 (
             .O(N__113),
-            .I(leds_0__0_i));
+            .I(leds_0));
     VCC VCC (
             .Y(VCCG0));
     GND GND (
@@ -294,13 +298,13 @@ module comparator (
             .sr(_gnd_net_));
     defparam pin_out_driver_RNO_LC_13_30_5.C_ON=1'b0;
     defparam pin_out_driver_RNO_LC_13_30_5.SEQ_MODE=4'b0000;
-    defparam pin_out_driver_RNO_LC_13_30_5.LUT_INIT=16'b0010001010110010;
+    defparam pin_out_driver_RNO_LC_13_30_5.LUT_INIT=16'b1011101100101011;
     LogicCell40 pin_out_driver_RNO_LC_13_30_5 (
             .in0(N__173),
-            .in1(N__161),
-            .in2(N__146),
+            .in1(N__158),
+            .in2(N__152),
             .in3(N__137),
-            .lcout(leds_0__0_i),
+            .lcout(leds_0),
             .ltout(),
             .carryin(_gnd_net_),
             .carryout(),

@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2022 10 26 22 36 59)
+      (timeStamp 2022 10 27 19 31 21)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L+ice40, mapper maplat, Build 1612R"))
      )
@@ -123,7 +123,7 @@
          )
          (contents
           (instance pin_out_driver_RNO (viewRef PRIM (cellRef SB_LUT4 (libraryRef sb_ice)))
-           (property LUT_INIT (string "7310"))
+           (property LUT_INIT (string "8CEF"))
           )
           (instance (rename sw1_ibuf_0 "sw1_ibuf[0]") (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
            (property NEG_TRIGGER (string "0"))
@@ -172,6 +172,10 @@
            (portRef DOUT0 (instanceRef pin_out_driver2))
            (portRef DOUT0 (instanceRef pin_out_driver3))
           ))
+          (net (rename leds_0 "leds[0]") (joined
+           (portRef O (instanceRef pin_out_driver_RNO))
+           (portRef DOUT0 (instanceRef pin_out_driver))
+          ))
           (net (rename sw1_c_0 "sw1_c[0]") (joined
            (portRef D_IN_0 (instanceRef sw1_ibuf_0))
            (portRef I0 (instanceRef pin_out_driver_RNO))
@@ -203,10 +207,6 @@
           (net (rename sw2_1 "sw2[1]") (joined
            (portRef PACKAGE_PIN (instanceRef sw2_ibuf_1))
            (portRef (member sw2 0))
-          ))
-          (net (rename leds_0__0_i "leds[0]_0_i") (joined
-           (portRef O (instanceRef pin_out_driver_RNO))
-           (portRef DOUT0 (instanceRef pin_out_driver))
           ))
          )
         (property orig_inst_of (string "comparator"))

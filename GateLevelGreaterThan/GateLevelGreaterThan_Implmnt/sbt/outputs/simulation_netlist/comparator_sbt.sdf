@@ -1,7 +1,7 @@
 (DELAYFILE                 // Header Section
    (SDFVERSION "3.0")
    (DESIGN "comparator")
-   (DATE "Wed Oct 26 22:37:17 2022")
+   (DATE "Thu Oct 27 19:29:27 2022")
    (VENDOR "SiliconBlue Technologies Corporation")
    (DIVIDER /)
    (TIMESCALE 1ps)
@@ -188,80 +188,8 @@
       )
    )
    (CELL
-      (CELLTYPE "LocalMux")
+      (CELLTYPE "Odrv4")
       (INSTANCE I__21)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (408.09:713.51:1099.3) (285.171:498.597:768.183))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "InMux")
-      (INSTANCE I__22)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (245.837:429.825:662.227) (186.836:326.667:503.292))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "CascadeMux")
-      (INSTANCE I__23)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (0:0:0) (0:0:0))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "Odrv4")
-      (INSTANCE I__24)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (221.254:386.843:596.004) (240.921:421.229:648.982))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "Span4Mux_h")
-      (INSTANCE I__25)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (191.753:335.264:516.537) (201.587:352.457:543.026))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "Span4Mux_h")
-      (INSTANCE I__26)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (191.753:335.264:516.537) (201.587:352.457:543.026))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "LocalMux")
-      (INSTANCE I__27)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (408.09:713.51:1099.3) (285.171:498.597:768.183))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "InMux")
-      (INSTANCE I__28)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (245.837:429.825:662.227) (186.836:326.667:503.292))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "Odrv4")
-      (INSTANCE I__29)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (221.254:386.843:596.004) (240.921:421.229:648.982))
@@ -270,10 +198,82 @@
    )
    (CELL
       (CELLTYPE "IoSpan4Mux")
-      (INSTANCE I__30)
+      (INSTANCE I__22)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (231.087:404.036:622.493) (275.338:481.404:741.694))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "LocalMux")
+      (INSTANCE I__23)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (408.09:713.51:1099.3) (285.171:498.597:768.183))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "InMux")
+      (INSTANCE I__24)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (245.837:429.825:662.227) (186.836:326.667:503.292))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "CascadeMux")
+      (INSTANCE I__25)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (0:0:0) (0:0:0))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "LocalMux")
+      (INSTANCE I__26)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (408.09:713.51:1099.3) (285.171:498.597:768.183))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "InMux")
+      (INSTANCE I__27)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (245.837:429.825:662.227) (186.836:326.667:503.292))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "Odrv4")
+      (INSTANCE I__28)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (221.254:386.843:596.004) (240.921:421.229:648.982))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "Span4Mux_h")
+      (INSTANCE I__29)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (191.753:335.264:516.537) (201.587:352.457:543.026))
+         )
+      )
+   )
+   (CELL
+      (CELLTYPE "Span4Mux_h")
+      (INSTANCE I__30)
+      (DELAY
+         (ABSOLUTE 
+            (IOPATH I O (191.753:335.264:516.537) (201.587:352.457:543.026))
          )
       )
    )
