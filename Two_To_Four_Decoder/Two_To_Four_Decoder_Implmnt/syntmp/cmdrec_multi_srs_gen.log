@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "C:\Users\kolel\OneDrive\Lattice FPGA\Two_To_Four_Decoder\Two_To_Four_Decoder_Implmnt\synwork\Two_To_Four_Decoder_comp.srs"  -osyn  "C:\Users\kolel\OneDrive\Lattice FPGA\Two_To_Four_Decoder\Two_To_Four_Decoder_Implmnt\synwork\Two_To_Four_Decoder_mult.srs"  -log  "C:\Users\kolel\OneDrive\Lattice FPGA\Two_To_Four_Decoder\Two_To_Four_Decoder_Implmnt\synlog\Two_To_Four_Decoder_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Two_To_Four_Decoder\Two_To_Four_Decoder_Implmnt\synwork\Two_To_Four_Decoder_comp.srs|io:i|time:1667129877|size:1900|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Two_To_Four_Decoder\Two_To_Four_Decoder_Implmnt\synwork\Two_To_Four_Decoder_mult.srs|io:o|time:1667129878|size:1661|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Two_To_Four_Decoder\Two_To_Four_Decoder_Implmnt\synlog\Two_To_Four_Decoder_multi_srs_gen.srr|io:o|time:1667129878|size:859|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1662486574|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1662486577|size:3947520|exec:1

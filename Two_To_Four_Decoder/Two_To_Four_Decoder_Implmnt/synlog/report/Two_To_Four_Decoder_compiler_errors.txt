@@ -1,0 +1,2 @@
+@E: CG396 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":0:0:0:0|All unreferenced modules are black boxes - cannot set top-level module
+

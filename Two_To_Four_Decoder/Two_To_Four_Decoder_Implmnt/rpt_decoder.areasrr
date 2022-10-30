@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   decoder   ########
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block decoder:	4 (33.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     6                  100 %                
+=================================================
+Total IO PADS in the block decoder:	6 (50.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

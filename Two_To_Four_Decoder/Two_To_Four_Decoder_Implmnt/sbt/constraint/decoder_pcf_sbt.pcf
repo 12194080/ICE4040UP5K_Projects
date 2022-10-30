@@ -1,0 +1,22 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Oct 28 2022 16:44:22
+
+# Family & Device:    iCE40UP5K
+
+# Package:            SG48
+
+# ##############################################################################
+
+###IOSet List 6
+set_io leds[1] 38 -io_std SB_LVCMOS
+set_io leds[3] 36 -io_std SB_LVCMOS
+set_io sw[1] 32 -io_std SB_LVCMOS
+set_io leds[0] 28 -io_std SB_LVCMOS
+set_io leds[2] 42 -io_std SB_LVCMOS
+set_io sw[0] 31 -io_std SB_LVCMOS
+
