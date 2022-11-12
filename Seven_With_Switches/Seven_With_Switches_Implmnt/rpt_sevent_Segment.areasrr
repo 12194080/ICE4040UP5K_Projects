@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   sevent_Segment   ########
+==============================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block sevent_Segment:	7 (33.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     12                 100 %                
+=================================================
+Total IO PADS in the block sevent_Segment:	12 (57.14 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

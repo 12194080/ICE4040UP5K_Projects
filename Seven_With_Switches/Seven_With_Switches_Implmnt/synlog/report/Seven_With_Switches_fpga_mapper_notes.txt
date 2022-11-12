@@ -1,0 +1,10 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\kolel\onedrive\lattice fpga\seven_with_switches\main.v":81:1:81:6|Tristate driver leds_1 (in view: work.sevent_Segment(verilog)) on net leds[7] (in view: work.sevent_Segment(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO106 :"c:\users\kolel\onedrive\lattice fpga\seven_with_switches\main.v":100:16:100:22|Found ROM .delname. (in view: work.sevent_Segment(verilog)) with 15 words by 7 bits.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\kolel\OneDrive\Lattice FPGA\Seven_With_Switches\Seven_With_Switches_Implmnt\Seven_With_Switches.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

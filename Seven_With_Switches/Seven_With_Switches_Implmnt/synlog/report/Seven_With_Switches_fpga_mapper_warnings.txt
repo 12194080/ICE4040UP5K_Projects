@@ -1,0 +1,2 @@
+@W: FA239 :"c:\users\kolel\onedrive\lattice fpga\seven_with_switches\main.v":100:16:100:22|ROM leds_2[6:0] (in view: work.sevent_Segment(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\kolel\onedrive\lattice fpga\seven_with_switches\main.v":100:16:100:22|ROM leds_2[6:0] (in view: work.sevent_Segment(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.

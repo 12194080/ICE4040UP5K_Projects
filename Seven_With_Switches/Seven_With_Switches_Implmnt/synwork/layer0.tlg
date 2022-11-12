@@ -1,0 +1,5 @@
+Selecting top level module sevent_Segment
+@N: CG364 :"C:\Users\kolel\OneDrive\Lattice FPGA\Seven_With_Switches\main.v":45:7:45:20|Synthesizing module sevent_Segment in library work.
+
+@W: CG134 :"C:\Users\kolel\OneDrive\Lattice FPGA\Seven_With_Switches\main.v":45:60:45:63|No assignment to bit 7 of leds
+@W: CL157 :"C:\Users\kolel\OneDrive\Lattice FPGA\Seven_With_Switches\main.v":45:60:45:63|*Output leds has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.

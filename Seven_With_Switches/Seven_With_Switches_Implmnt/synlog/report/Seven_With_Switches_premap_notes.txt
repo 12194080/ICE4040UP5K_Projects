@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\kolel\onedrive\lattice fpga\seven_with_switches\main.v":81:1:81:6|Tristate driver leds_1 (in view: work.sevent_Segment(verilog)) on net leds[7] (in view: work.sevent_Segment(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kolel\onedrive\lattice fpga\seven_with_switches\main.v":81:1:81:6|Tristate driver leds_1 (in view: work.sevent_Segment(verilog)) on net leds[7] (in view: work.sevent_Segment(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\Users\kolel\OneDrive\Lattice FPGA\Seven_With_Switches\Seven_With_Switches_Implmnt\Seven_With_Switches.sap.
