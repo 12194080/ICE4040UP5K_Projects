@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt"   -part iCE40UP5K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\report\Blinky_fpga_mapper.xml"  -flow mapping  -multisrs  -oedif  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.edf"   -autoconstraint  -freq 1.000   "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd"  -sap  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.sap"  -otap  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.tap"  -omap  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.map"  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.sap"  -ologparam  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\syntmp\Blinky.plg"  -osyn  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.srm"  -prjdir  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\"  -prjname  Blinky_syn  -log  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_fpga_mapper.srr" 
+rc:1 success:1 runtime:1
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.edf|io:o|time:1668273038|size:44852|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd|io:i|time:1668273037|size:2772|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.sap|io:o|time:1668273037|size:369|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.tap|io:o|time:0|size:0|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.map|io:o|time:1668273038|size:28|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1662486592|size:224837|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.sap|io:o|time:1668273037|size:369|exec:0
+file:"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\syntmp\Blinky.plg"|io:o|time:0|size:0|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.srm|io:o|time:1668273038|size:14248|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_fpga_mapper.srr|io:o|time:1668273038|size:40625|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1662486569|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1662486575|size:32355840|exec:1

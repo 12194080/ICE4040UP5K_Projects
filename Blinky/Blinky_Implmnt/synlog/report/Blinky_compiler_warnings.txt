@@ -1,0 +1,2 @@
+@W: CG532 :"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v":4:1:4:7|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+

@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_comp.srs"  -osyn  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_mult.srs"  -log  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_multi_srs_gen.srr" 
+rc:0 success:1 runtime:1
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_comp.srs|io:i|time:1668273035|size:2029|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_mult.srs|io:o|time:1668273037|size:1774|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_multi_srs_gen.srr|io:o|time:1668273037|size:792|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1662486574|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1662486577|size:3947520|exec:1

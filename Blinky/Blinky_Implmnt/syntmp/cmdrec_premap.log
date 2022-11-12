@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt"   -part iCE40UP5K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\report\Blinky_premap.xml"  -oedif  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.edf"  -conchk_prepass  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky_cck.rpt"   -autoconstraint  -freq 1.000   "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_mult.srs"  -flow prepass  -gcc_prepass  -osrd  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd"  -qsap  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.sap"  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -ologparam  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\syntmp\Blinky.plg"  -osyn  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd"  -prjdir  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\"  -prjname  Blinky_syn  -log  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_premap.srr" 
+rc:1 success:1 runtime:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.edf|io:o|time:1668272405|size:44850|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky_cck.rpt|io:o|time:1668273037|size:2111|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_mult.srs|io:i|time:1668273037|size:1774|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd|io:o|time:1668273037|size:2772|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\Blinky.sap|io:o|time:1668273037|size:369|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1662486592|size:224837|exec:0
+file:"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\syntmp\Blinky.plg"|io:o|time:0|size:0|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd|io:o|time:1668273037|size:2772|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_premap.srr|io:o|time:1668273037|size:3445|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1662486569|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1662486575|size:32355840|exec:1

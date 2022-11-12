@@ -1,0 +1,35 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+----------------------------------------------------------------------
+########   Utilization report for  Top level view:   blinky   ########
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     25                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block blinky:	25 (26.60 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       43                 100 %                
+CARRYS     22                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block blinky:	65 (69.15 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     2                  100 %                
+=================================================
+Total IO PADS in the block blinky:	2 (2.13 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

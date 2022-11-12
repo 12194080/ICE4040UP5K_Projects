@@ -1,0 +1,8 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe  -osyn  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_comp.srs"  -hdllog  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_compiler.srr"  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\"  -I C:\lscc\iCEcube2.2020.12\synpbase\lib   -v2001  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\dm"  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work "C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v" 
+rc:0 success:1 runtime:1
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synwork\Blinky_comp.srs|io:o|time:1668273035|size:2029|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\Blinky_Implmnt\synlog\Blinky_compiler.srr|io:o|time:1668273035|size:3273|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1662486592|size:224837|exec:0
+file:C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v|io:i|time:1668272296|size:282|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\c_hdl.exe|io:i|time:1662486569|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe|io:i|time:1662486574|size:1754112|exec:1

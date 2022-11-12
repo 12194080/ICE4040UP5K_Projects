@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v":1:7:1:12|Synthesizing module blinky in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v":1:7:1:12|Selected library: work cell: blinky view verilog as top level
+@N: NF107 :"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v":1:7:1:12|Selected library: work cell: blinky view verilog as top level
+

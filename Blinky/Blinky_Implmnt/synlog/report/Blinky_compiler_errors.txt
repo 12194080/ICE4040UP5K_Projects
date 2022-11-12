@@ -1,0 +1,3 @@
+@E: CS177 :"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v":13:3:13:7|Expecting net name
+@E: CS187 :"C:\Users\kolel\OneDrive\Lattice FPGA\Blinky\main.v":18:0:18:8|Expecting endmodule
+
